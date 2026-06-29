@@ -1,1 +1,5 @@
-print("Hello world!")
+name=input("Who am I? ")
+# print("Hello " + name + ".")
+# print("Hello ", name, ".", sep="")
+print("Hello ", end = "")
+print(name, ".", sep = "")
